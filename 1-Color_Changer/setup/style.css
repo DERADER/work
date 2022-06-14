@@ -37,7 +37,11 @@ body {
     line-height: 20px;
     color: #0a2f4d;
     letter-spacing: 6px;
+    transition: all .5s;
+}
 
+.menu__list-link:hover {
+    color: #15609e;
 }
 .main {
     min-height: calc(100vh - 3rem);
@@ -83,5 +87,10 @@ body {
     cursor: pointer;
     border-radius: 0.5rem;
     border: 2px solid #222;
+    transition: all .5s;
 }
 
+.btn:hover {
+    background: #222;
+    color: #fff
+}
